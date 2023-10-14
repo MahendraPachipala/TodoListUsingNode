@@ -145,7 +145,7 @@ a:active {
     text-align: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     body {
         min-height: 800px;
     }
