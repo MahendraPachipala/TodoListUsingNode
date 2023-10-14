@@ -150,7 +150,7 @@ a:active {
         min-height: 800px;
     }
     .main, .date, #taskcreating {
-        width: 100%;
+        width: 80%;
         margin: 8px 0;
         padding: 10px;
     }
