@@ -82,7 +82,7 @@ input[type="text"] {
     background: #f0f0f0;
     font-size: 20px;
     font-weight: 300;
-    width: 313px;
+    width: 100%; /* Use 100% width to make it responsive */
 }
 
 input[type="text"]:focus {
@@ -135,11 +135,26 @@ a:active {
     background-color: #ff00c3;
     transform: scale(0.95);
 }
-.Date{
-    color:white;
-    background-color:black;
-    display:inline-block;
-    padding:2px;
+
+.Date {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 2px;
     font-weight: bold;
     text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        min-height: auto;
+    }
+    .main, .date, #taskcreating {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
 }
