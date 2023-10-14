@@ -147,14 +147,14 @@ a:active {
 
 @media screen and (max-width: 480px) {
     body {
-        min-height: auto;
+        min-height: 1427px;
     }
     .main, .date, #taskcreating {
         width: 100%;
-        margin: 10px 0;
+        margin: 8px 0;
         padding: 10px;
     }
     input[type="text"] {
-        width: 100%;
+        width: 80%;
     }
 }
